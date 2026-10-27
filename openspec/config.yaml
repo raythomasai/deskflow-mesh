@@ -1,0 +1,32 @@
+schema: spec-driven
+
+context: |
+  This is a public fork of deskflow/deskflow, a cross-platform C++/Qt keyboard-and-mouse sharing application.
+  Preserve upstream attribution, REUSE metadata, and the repository's GPL-2.0/OpenSSL-exception licensing.
+  Existing Deskflow uses explicit server/client networking; this project investigates user-transparent LAN discovery and pairing.
+  Do not treat a Bonjour mention as a chosen implementation. Compare interoperable DNS-SD/mDNS options.
+  Treat local-network peers as untrusted until explicitly paired; discovery alone must never authorize input injection.
+  The user's product is a native desktop application. Ray's App Studio currently supports web previews only; do not describe a web mockup as native delivery.
+  Preserve creator-stated intent separately from proposed architecture and unresolved decisions.
+
+# Per-artifact rules (optional)
+# Add custom rules for specific artifacts.
+# Example:
+#   rules:
+#     proposal:
+#       - Keep proposals under 500 words
+#       - Always include a "Non-goals" section
+#     tasks:
+#       - Break tasks into chunks of max 2 hours
+
+# Per-operation guidance (optional)
+# Add advisory guidance for how apply and archive work should be conducted.
+# This is separate from artifact rules above.
+# Example:
+#   operations:
+#     apply:
+#       guidance:
+#         - Keep test summaries concise
+#     archive:
+#       guidance:
+#         - Summarize the archive outcome before finishing
